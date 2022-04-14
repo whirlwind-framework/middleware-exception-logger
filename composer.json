@@ -1,0 +1,26 @@
+{
+    "name": "whirlwind-framework/middleware-exception-logger",
+    "description": "Whirlwind framework exception logger middleware library",
+    "keywords": [
+        "middleware exception logger"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Stepanenko",
+            "email": "alex.stepanenko@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.4||>=8.0",
+        "whirlwind-framework/framework": "*",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Whirlwind\\Middleware\\ExceptionLogger\\": "src"
+        }
+    }
+}
